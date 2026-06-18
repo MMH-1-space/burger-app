@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>注文確認</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>📋 注文確認</h1>
+
+名前<br>
+<input type="text" id="customerName">
+
+<br><br>
+
+住所<br>
+<input type="text" id="address">
+
+<br><br>
+
+電話番号<br>
+<input type="tel" id="phone">
+
+<br><br>
+
+支払方法<br>
+
+<select id="payment">
+<option>現金</option>
+<option>クレジットカード</option>
+<option>PayPay</option>
+</select>
+
+<br><br>
+
+配達日<br>
+<input type="date" id="date">
+
+<br><br>
+
+配達時間<br>
+<input type="time" id="time">
+
+<br><br>
+
+<textarea
+id="message"
+rows="5"
+cols="40"
+placeholder="ご要望"
+></textarea>
+
+<br><br>
+
+<button onclick="completeOrder()">
+注文確定
+</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

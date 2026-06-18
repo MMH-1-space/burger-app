@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>商品一覧</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>🍔 商品一覧 🍟</h1>
+
+<select id="menu">
+<option value="500">ハンバーガー (500円)</option>
+<option value="300">ポテト (300円)</option>
+<option value="200">ジュース (200円)</option>
+    
+</select>
+
+<br><br>
+
+<input type="number" id="count" value="1" min="1">
+
+<br><br>
+
+<input type="text" id="coupon" placeholder="クーポンコード">
+
+<br><br>
+
+<button onclick="addToCart()">🛒 カート追加</button>
+
+<br><br>
+
+<a href="cart.html">カートを見る</a>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
